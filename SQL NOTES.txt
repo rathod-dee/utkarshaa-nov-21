@@ -1,0 +1,41 @@
+------ Database System--------
+I) Database:It is a collection of related data
+i) structured Database
+   -RDBMS:Relational Data Base Management System
+   -Ex. IRCTC         (RELATION-TABLE)
+ii)Unstructured Database
+   -Ex. Web page
+II) DBMS: Data Base Management System
+    i) SQL Server
+    ii)Oracle
+    iii) My SQL etc.
+
+                                                                         SQL COMMANDS
+                                                                            //
+--------------------------------------------------------------------------------------------------------------------------------------------
+          /                              /                         /                               /                         /
+        DDL:                           DML                        DCL                            TCL                      CONSTRAINT
+       - CREATE                   - SELECT                   - GRANT                          - COMMIT                - PRIMARY KEY
+       - ALTER                    - INSERT                   - REVOKE                         - ROLL BACK             - FOREIGN KEY
+       - DROP                     - UPDATE                                                    - SAVE POINT            - CHECK
+       - TRUNCATE                                                                                                     - UNIQUE
+       - RENAME                                                                                                       - DEFAULT
+                                                                                                                      - NOT NULL
+
+CONSTRAINT
+I)NOT NULL
+SYNTAX: CREATE TABLE TABLE_NAME(COLUMN1 DATATYPE NOT NULL,COLUMN2.....COLUMNN)
+II)UNIQUE
+SYNTAX:CREATE TABLE TABLE_NAME(COLUMN1 DATATYPE UNIQUE,COLUMN2.....COLUMNN)
+III)PRIMARY KEY(There is single primary key apply ia a table)
+
+GIT-HUB Username:rathod-dee
+        Password:Deepak77o7
+
+git command: git clone
+             cd
+             git branch -a
+             git pull
+             git checkout
+             cd
+             ls
